@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>Audio-player</title>
+	<meta charset="UTF-8">
+	<meta name="format-detection" content="telephone=no">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="img/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="img/favicon/favicon-16x16.png">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+	<div class="wrapper">
+		<main class="page">
+			<div class="bg-blur"></div>
+			<div class="audio-player">
+				<div class="audio-player__body">
+					<div class="audio-player__cover">
+						<img class="cover-image" src="img/covers/QOTSA.jpg" alt="cover">
+					</div>
+					<div class="audio-player__track-name track">
+						<div class="track__artist">Tool</div>
+						<div class="track__song">Forty Six & 2</div>
+					</div>
+					<audio src="#" class="audio-track"></audio>
+					<div class="audio-player__progress-bar progress-bar">
+						<div class="progress-bar__total">0:00</div>
+						<div class="progress-bar__container">
+							<div class="progress-bar__progress">
+								<div class="progress-bar__slider"></div>
+							</div>
+						</div>
+						<div class="progress-bar__current">0:00</div>
+					</div>
+					<div class="audio-player__volume volume">
+						<div class="volume__btn"></div>
+						<div class="volume__container">
+							<div class="volume__progress"></div>
+						</div>
+					</div>
+					<div class="audio-player__controls controls">
+						<div class="controls__prev btn-control">
+							<img src="img/icons/prev.svg" alt="btn-prev">
+						</div>
+						<div class="controls__play btn-control">
+							<img class="btn-play-img" src="img/icons/play.svg" alt="btn-play">
+						</div>
+						<div class="controls__next btn-control">
+							<img src="img/icons/next.svg" alt="btn-next">
+						</div>
+					</div>
+				</div>
+			</div>
+		</main>
+		<footer class="footer">
+			<div class="footer__container">
+				<div class="footer__items">
+					<a href="https://github.com/igor-bochenkov" class="footer__item footer__item--github" target="_blank">
+						<img src="img/footer/github-svg.svg" alt="github">
+					</a>
+					<a href="https://rs.school/courses/javascript-preschool-ru" class="footer__item footer__item--rss"
+						target="_blank">
+						<img src="img/footer/rs_school_js.svg" alt="rsschool">
+					</a>
+					<div class="footer__item footer__item--data">2024</div>
+				</div>
+			</div>
+		</footer>
+	</div>
+	<script src="js/script.js"></script>
+	<script src="js/index.js"></script>
+</body>
+
+</html>
